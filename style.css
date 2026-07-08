@@ -1,0 +1,59 @@
+body{
+    background:#111;
+    color:white;
+    font-family:Arial,sans-serif;
+}
+
+h1{
+    color:red;
+    text-align:center;
+}
+
+#killerGrid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:15px;
+    padding:20px;
+}
+
+.card{
+    background:#222;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px black;
+}
+
+button{
+    padding:10px;
+    border:none;
+    border-radius:6px;
+    background:#c00000;
+    color:white;
+    cursor:pointer;
+}
+.card img{
+    width:100%;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+input{
+    width:90%;
+    padding:12px;
+    margin:20px;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+}
+#randomBtn{
+    display:block;
+    margin:15px auto;
+    padding:12px 20px;
+    font-size:18px;
+}
+
+#randomResult{
+    text-align:center;
+    color:#ffd700;
+    margin-bottom:20px;
+}
